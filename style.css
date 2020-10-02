@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body{
+	margin:0px;
+	padding:0px;
+	font-family:arial,helvetica;
+	font-size:14px;
+}
+
+.container-left{
+	float:left;
+	width:50%;
+	height:100vh;
+	background-image:url("img_boat.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+
+}
+
+.container-right{
+	position: relative;
+	float:right;
+	width:50%;
+	height:100vh;
+}
+
+.container-left-txt{  
+  position:absolute;
+  width: 400px;
+  height: 200px;
+  left:auto;
+  transform:translate(50%,-50%);
+  top:50%;
+  border:3px solid white;
+  color:white;
+
+}
+
+.container-left-txt-p{  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align:center;
+  font-size:25px;
+}
+
+
+.container-form{
+
+  position:absolute;
+  width: 400px;
+  height: 200px;
+  left:auto;
+  transform:translate(50%,-50%);
+  top:50%;
+
+}
+
+.login-input-text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  margin:10px 0px;
+}
+
+.login-input-text:focus{
+  border: 2px solid #009900;
+}
+
+.login-header{
+	font-size:32px;	
+}
+.login-header a{
+	font-size:24px;
+	
+}
+a:link ,a:visited{
+  color: gray;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: #009900;
+}
+
+.login-link-forgot{
+	float:right;
+	
+}
+
+.login-button{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin:30px 0px;
+	padding: 10px 50px;
+	border-radius:20px;
+	background-color:#009900;
+	color:white;
+	border:none;
+	cursor: pointer;
+	font-size:16px;
+}
+
+.login-button:hover {
+  background-color: #004d00;
+  color: white;
+}
