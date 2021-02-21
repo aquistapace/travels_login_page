@@ -48,17 +48,13 @@ Esse projeto está hospedado no Netlifly, clique [aqui](https://page-login-basic
 ---
 
 ## 🎨 Layout
-- O projeto desenvolvido possui Layout Responsivo.
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+	<img alt="page-login" title="travels Page Login" src="./travels_page_login.png" width="200px">
 </p>
 
-### Mobile
 
-<p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
- </p>
 
 ---
 
